@@ -1,17 +1,14 @@
-# Simple Rest application with Spring
-The example above shows the simple REST-backend with help of Spring framework and jackson library.
+# Simple Spring MVC application
+The example above shows the simple Spring MVC app with jsp and bootstrap.
 Article in russian available in following url:
-[https://smartcoderteam.github.io/rest-app-in-15-minutes-with-spring](https://smartcoderteam.github.io/rest-app-in-15-minutes-with-spring/)
+[https://smartcoderteam.github.io/simple-web-configuration-for-spring-mvc/](https://smartcoderteam.github.io/simple-web-configuration-for-spring-mvc/)
 
 How to run 
 ----------
 
 * Run _tomcat7:run_ maven command
 * And open following urls in order to get data:
-  - http://localhost:9090/v1/categories
-  - http://localhost:9090/v1/categories/1
-  - http://localhost:9090/v1/categories/1/apps
-  - http://localhost:9090/v1/categories/1/apps/2
+  - http://localhost:9090/hello
 
 Libraries
 ---------
@@ -19,5 +16,4 @@ Libraries
 * Spring Framework 4.3.3 
 * Spring MVC 
 * Maven for build
-* Jackson
 * Tomcat maven plugin
